@@ -1,0 +1,16 @@
+{
+  "name": "healthvibe",
+  "version": "1.0.0",
+  "description": "HealthVibe is a project aimed at providing health-related services through an integrated platform. This document provides instructions on how to set up and run the project locally for development purposes.",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
